@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\views\\student\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\views\\student\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\views\\student\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\views\\student\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstwebempty\\firstwebempty\\firstwebempty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71C05916-47A7-4CB5-88C9-DF7621D54758}|FirstWebEmpty\\FirstWebEmpty.csproj|solutionrelative:firstwebempty\\firstwebempty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Student\\GetById.cshtml",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Views\\Student\\GetById.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Student\\GetById.cshtml",
+              "RelativeToolTip": "FirstWebEmpty\\Views\\Student\\GetById.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:46:41.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FirstWebEmpty\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:42:50.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FirstWebEmpty\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:40:07.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FirstWebEmpty\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:39:23.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Getall.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Student\\Getall.cshtml",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Views\\Student\\Getall.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Student\\Getall.cshtml",
+              "RelativeToolTip": "FirstWebEmpty\\Views\\Student\\Getall.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:33:14.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FirstWebEmpty\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:31:32.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "FirstWebEmpty\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:53:49.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Models\\Student.cs",
+              "RelativeToolTip": "FirstWebEmpty\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:50:31.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FirstWebEmpty\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:41:14.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FirstWebEmpty\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-28T06:28:45.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FirstWebEmpty",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\FirstWebEmpty.csproj",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\FirstWebEmpty.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\FirstWebEmpty.csproj",
+              "RelativeToolTip": "FirstWebEmpty\\FirstWebEmpty.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T06:28:42.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Program.cs",
+              "RelativeDocumentMoniker": "FirstWebEmpty\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Program.cs",
+              "RelativeToolTip": "FirstWebEmpty\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:24:06.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 414,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

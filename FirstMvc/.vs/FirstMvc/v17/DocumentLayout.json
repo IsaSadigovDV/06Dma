@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C476E3E5-3708-471F-9433-E30959EC19B5}|FirstMvc\\FirstMvc.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstmvc\\firstmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C476E3E5-3708-471F-9433-E30959EC19B5}|FirstMvc\\FirstMvc.csproj|solutionrelative:firstmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C476E3E5-3708-471F-9433-E30959EC19B5}|FirstMvc\\FirstMvc.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstmvc\\firstmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C476E3E5-3708-471F-9433-E30959EC19B5}|FirstMvc\\FirstMvc.csproj|solutionrelative:firstmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C476E3E5-3708-471F-9433-E30959EC19B5}|FirstMvc\\FirstMvc.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\firstmvc\\firstmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C476E3E5-3708-471F-9433-E30959EC19B5}|FirstMvc\\FirstMvc.csproj|solutionrelative:firstmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\FirstMvc\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FirstMvc\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\FirstMvc\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FirstMvc\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:52:45.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\FirstMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FirstMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\FirstMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FirstMvc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T07:49:46.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\FirstMvc\\Program.cs",
+              "RelativeDocumentMoniker": "FirstMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstMvc\\FirstMvc\\Program.cs",
+              "RelativeToolTip": "FirstMvc\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:34:57.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 414,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
