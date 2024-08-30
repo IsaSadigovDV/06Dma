@@ -1,0 +1,42 @@
+﻿@model List<Category>
+
+@{
+    int count = 0;
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">No: </th>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            @* <th scope="col">Description</th> *@
+            <th scope="col">CreateAt</th>
+            <th scope="col">UpdatedAt</th>
+            <th scope="col">Delete</th>
+            <th scope="col">Update</th>
+        </tr>
+    </thead>
+    <tbody>
+     @foreach (var item in Model)
+        {
+            count++;
+            <tr>
+                <td>@count</td>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                @* <td>@item.Description</td> *@
+                <td>@item.CreatedAt.ToString("dd MMMM yyyy")</td>
+                <td>@item.UpdatedAt</td>
+                <td>
+                    <a onclick="return confirm('Are you sure you want to delete this?')" class="btn btn-danger" asp-controller="category" asp-action="delete" asp-route-id="@item.Id">
+                        <i class="fa-solid fa-trash"></i>
+                </a></td>
+                <td>
+                    <a class="btn btn-danger" asp-controller="category" asp-action="update" asp-route-id="@item.Id">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                </a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a  class="btn btn-success" style="float:right"  asp-controller="category" asp-action="create">Create Category </a>

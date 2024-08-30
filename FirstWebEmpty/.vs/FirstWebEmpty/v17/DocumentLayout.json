@@ -74,8 +74,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Views\\Student\\GetById.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T07:46:41.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:46:41.796Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T07:42:50.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:42:50.444Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T07:40:07.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:40:07.456Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T07:39:23.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:39:23.707Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Views\\Student\\Getall.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T07:33:14.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:33:14.938Z"
             },
             {
               "$type": "Document",
@@ -139,8 +134,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T07:31:32.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:31:32.222Z"
             },
             {
               "$type": "Document",
@@ -150,7 +144,7 @@
               "RelativeDocumentMoniker": "FirstWebEmpty\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\Controllers\\StudentController.cs",
               "RelativeToolTip": "FirstWebEmpty\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAKAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwDUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T06:53:49.343Z",
               "EditorCaption": ""
@@ -165,8 +159,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T06:50:31.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T06:50:31.262Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T06:41:14.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T06:41:14.562Z"
             },
             {
               "$type": "Document",
@@ -191,21 +183,19 @@
               "RelativeToolTip": "FirstWebEmpty\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-28T06:28:45.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T06:28:45.262Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FirstWebEmpty",
+              "Title": "FirstWebEmpty.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\FirstWebEmpty.csproj",
               "RelativeDocumentMoniker": "FirstWebEmpty\\FirstWebEmpty.csproj",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\FirstWebEmpty\\FirstWebEmpty\\FirstWebEmpty.csproj",
               "RelativeToolTip": "FirstWebEmpty\\FirstWebEmpty.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-28T06:28:42.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T06:28:42.278Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "FirstWebEmpty\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T06:24:06.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T06:24:06.368Z"
             }
           ]
         },
@@ -226,6 +215,10 @@
           "DockedWidth": 414,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
