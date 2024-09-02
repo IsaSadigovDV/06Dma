@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="~/Css/home.css" />
+    <link rel="stylesheet"
+          href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header class="bg-blue">
+        <div class="header-top">
+            <div class="d-flex container space-between align-center">
+                <div class="header-icons-container d-flex">
+                    <a class="icons-border-bg-white"
+                       target="_blank"
+                       href="https://www.facebook.com/">
+                        <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+                    </a>
+
+                    <a class="icons-border-bg-white"
+                       target="_blank"
+                       href="https://twitter.com/">
+                        <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+                    </a>
+                    <a class="icons-border-bg-white"
+                       target="_blank"
+                       href="https://www.linkedin.com/">
+                        <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+                    </a>
+                </div>
+
+                <ul class="d-flex" style="gap: 15px">
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="./signup.html">Signup</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header d-flex container space-between align-center">
+            <div class="d-flex align-center icon-container">
+                <div class="d-flex align-center logo-container">
+                    <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+                    <h3>Pages</h3>
+                </div>
+            </div>
+            <!-- navigation start -->
+            <div class="d-flex pages-container align-center">
+                <ul class="d-flex pages-container align-center links">
+                    <div class="d-flex align-center hidden-logo logo-container">
+                        <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+                        <h3>Pages</h3>
+                        <a class="cart-shop" href="#cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <div id="close-menu">
+                            <i class="fa-regular fa-rectangle-xmark fa-lg"></i>
+                        </div>
+                    </div>
+                    <li><a asp-controller="home" asp-action="index">Home</a></li>
+                    <li class="dropdown-wrapper">
+                        <a asp-controller="home" asp-action="index" >
+                            Pages <i class="fa-solid fa-chevron-down fa-xs"></i>
+                        </a>
+
+                        <ul class="dropdown">
+                            <li><a asp-controller="book" asp-action="index" >Books</a></li>
+
+                            <li><a asp-controller="blog" asp-action="index" >Blogs</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-controller="about" asp-action="index">About</a></li>
+                    <li><a asp-controller="blog" asp-action="index" >Services</a></li>
+                    <li><a asp-controller="contact" asp-action="index">Contact</a></li>
+                    <div class="header-icons-container d-flex">
+                        <a class="icons-border-bg-white"
+                           target="_blank"
+                           href="https://www.facebook.com/">
+                            <i class="fa-brands i-blue fa-facebook-f fa-sm"> </i>
+                        </a>
+
+                        <a class="icons-border-bg-white"
+                           target="_blank"
+                           href="https://twitter.com/">
+                            <i class="fa-brands i-blue fa-twitter fa-sm"> </i>
+                        </a>
+                        <a class="icons-border-bg-white"
+                           target="_blank"
+                           href="https://www.linkedin.com/">
+                            <i class="fa-brands i-blue fa-linkedin-in fa-sm"> </i>
+                        </a>
+                    </div>
+                    <button class="btn menu-btn">
+                        <a class="blue" href="#">Order Today</a>
+                    </button>
+                </ul>
+                <div class="cart-wrapper">
+                    <a class="cart-shop" href="#cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+
+                    <div class="cart-quick-view">
+                        <div class="d-flex align-center space-between cart-box">
+                            <div class="cart-box-image">
+                                <img src="../assets/img/book2.jpg" alt="" />
+                            </div>
+
+                            <div class="cart-box-info">
+                                <h5>Lorem, ipsum dolor.</h5>
+
+                                <p class="d-flex">
+                                    <span class="cart-book-quantity">1</span>
+                                    <span>x</span>
+                                    <span class="cart-book-price">19.99$</span>
+                                </p>
+                            </div>
+
+                            <button class="cart-remove-btn">✖</button>
+                        </div>
+
+                        <div class="d-flex align-center space-between cart-total-price">
+                            <p>Total price :</p>
+
+                            <p>47$</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn menu-btn">
+                    <a class="blue" href="#">Order Today</a>
+                </button>
+                <div class="menu" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- navigation end -->
+    @RenderBody()
+    <!-- footer start -->
+    <footer class="bg-blue">
+        <div class="d-flex space-between container footer-container">
+            <div class="footer-logo-container d-flex">
+                <div class="d-flex align-center pages-bookmark">
+                    <i class="fa-solid fa-book-bookmark yellow fa-lg"></i>
+                    <h3>Pages</h3>
+                </div>
+                <div class="soc-media-icons d-flex">
+                    <a class="icons-border"
+                       target="_blank"
+                       href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook-f fa-sm"> </i>
+                    </a>
+                    <a class="icons-border" target="_blank" href="https://twitter.com/">
+                        <i class="fa-brands fa-twitter fa-sm"> </i>
+                    </a>
+                    <a class="icons-border"
+                       target="_blank"
+                       href="https://www.linkedin.com/">
+                        <i class="fa-brands fa-linkedin-in fa-sm"> </i>
+                    </a>
+                    <a class="icons-border"
+                       target="_blank"
+                       href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram fa-sm"> </i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="explore d-flex">
+                <h3>Explore</h3>
+                <ul class="gray">
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray"> Home</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray"> About Us</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray"> Services </a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Appointments</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Blog</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="utility d-flex">
+                <h3>Utility Pages</h3>
+                <ul class="gray">
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Start Here</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Style guide</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Password Protected</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Licences</a>
+                    </li>
+                    <li>
+                        <img src="../assets/img/dots.png" alt="" />
+                        <a href="" class="gray">Changelog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="in-touch d-flex">
+                <h3>Keep in Touch</h3>
+                <div class="contact d-flex">
+                    <h4 class="min-66">Address :</h4>
+                    <a href="" class="gray">24A Kingston St, Los Vegas NC 28202, USA.</a>
+                </div>
+                <div class="contact d-flex">
+                    <h4 class="min-66">Mail :</h4>
+                    <a class="gray" href="">support@doctors.com</a>
+                </div>
+                <div class="contact d-flex">
+                    <h4 class="min-66">Telefon :</h4>
+                    <a href="" class="gray">(+22) 123 - 4567 - 900 </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="~/Js/swiper.js"></script>
+    <script src="~/Js/home.js"></script>
+</body>
+</html>
