@@ -26,12 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\CSharp\06dma\BookStore\BookStore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcYWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcYWRtaW5cVmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Blog/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcYWRtaW5cVmlld3NcQmxvZ1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = YXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = YXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = YXJlYXNcYWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ASUS/Desktop/CSharp/06dma/BookStore/BookStore/areas/admin/Views/Home/Index.cshtml]

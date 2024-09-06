@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Areas\admin\Views\Home\" />
     <Folder Include="wwwroot\admin\" />
+    <Folder Include="wwwroot\assets\img\blog\" />
   </ItemGroup>
 
   <ItemGroup>

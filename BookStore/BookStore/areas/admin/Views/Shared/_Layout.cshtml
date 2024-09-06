@@ -20,6 +20,7 @@
     <!-- endinject -->
     <link rel="shortcut icon" href="~/admin/assets/images/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container-scroller">
@@ -52,13 +53,13 @@
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="navbar-brand-wrapper d-flex justify-content-center">
                 <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-                    <a class="navbar-brand brand-logo" href="index.html">
+                    <a class="navbar-brand brand-logo" asp-controller="home" asp-action="index" >
                         <img src="~/admin/assets/images/logo.svg" alt="logo" />
                     </a>
-                    <a class="navbar-brand brand-logo-white" href="index.html">
+                    <a class="navbar-brand brand-logo-white" asp-controller="home" asp-action="index">
                         <img src="~/admin/assets/images/logo-white.svg" alt="logo" />
                     </a>
-                    <a class="navbar-brand brand-logo-mini" href="index.html">
+                    <a class="navbar-brand brand-logo-mini" asp-controller="home" asp-action="index">
                         <img src="~/admin/assets/images/logo-mini.svg" alt="logo" />
                     </a>
                     <button class="navbar-toggler navbar-toggler align-self-center"
@@ -244,9 +245,15 @@
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" asp-controller="home" asp-action="index">
                             <i class="mdi mdi-home menu-icon"></i>
                             <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="category" asp-action="index" >
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Categories</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -400,7 +407,7 @@
         @RenderBody()
             <!-- content-wrapper ends -->
             <!-- partial:partials/_footer.html -->
-            <footer class="footer">
+        @*     <footer class="footer">
                 <div class="d-sm-flex justify-content-center justify-content-sm-between">
                     <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
                         Copyright © 2024
@@ -411,7 +418,7 @@
                         <i class="mdi mdi-heart text-danger"></i>
                     </span>
                 </div>
-            </footer>
+            </footer> *@
             <!-- partial -->
         </div>
         <!-- main-panel ends -->

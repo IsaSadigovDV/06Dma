@@ -2,21 +2,38 @@
 
 
 <table class="table">
-    <thead>
+    <thead style="text-align:center">
         <tr>
             <th scope="col">Id</th>
             <th scope="col">Name</th>
             <th scope="col">CreatedAt</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody style="text-align:center">
         @foreach (var item in Model)
         {
             <tr>
                 <td>@item.Id</td>
                 <td>@item.Name</td>
                 <td>@item.CreatedAt.ToString("dd MMM yyyy")</td>
+                <td>
+                    
+                    <a asp-controller="category" asp-action="update" asp-route-id="@item.Id">
+                        <i style="color:#199" class="fa-solid fa-wrench"></i>
+                    </a>
+                </td>
+                <td>
+                    <a onclick="return confirm('are you sure')" asp-controller="category"  asp-action="delete"
+                            asp-route-id="@item.Id">
+                        <i style="color:red" class="fa-solid fa-trash"></i>
+                    </a>    
+                </td>
             </tr>
         }
     </tbody>
 </table>
+<div>
+    <a class="btn btn-success" asp-controller="category" asp-action="create">Create category</a>
+</div>

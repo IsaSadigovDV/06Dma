@@ -1,0 +1,38 @@
+﻿@model Blog
+
+
+<div class="container">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Title"></label>
+            <input type="text" class="form-control" asp-for="Title">
+            <span class="text text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Description"></label>
+            <input type="text" class="form-control" asp-for="Description">
+            <span class="text text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="File"></label>
+            <input type="file" accept="image/*" class="form-control" asp-for="File">
+            <span class="text text-danger" asp-validation-for="File"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Explanation"></label>
+            <input type="text" class="form-control" asp-for="Explanation">
+            <span class="text text-danger" asp-validation-for="Explanation"></span>
+        </div>
+        <div class="mb-3">
+            <select asp-for="CategoryId" class="form-select" aria-label="Default select example">
+                <option style="color:black!important" selected>Open this select menu</option>
+                @foreach (var item in ViewBag.Categories)
+                {
+                    <option  style="color:black" value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

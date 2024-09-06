@@ -49,3 +49,9 @@ app.UseEndpoints(endpoints =>
 //    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+
+// task 1. fileupload extension method yaz  done
+
+// task 2. blogun elaqeli entitisi ile elaqesini duzgun qurub crud emeliyyatini yazmaq
