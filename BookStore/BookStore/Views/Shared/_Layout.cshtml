@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Store</title>
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="~/Css/home.css" />
     <link rel="stylesheet"
           href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/Swiper/swiper-bundle.css" />
+    <link rel="stylesheet"
+          href="~/lib/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <header class="bg-blue">
@@ -65,18 +66,18 @@
                     </div>
                     <li><a asp-controller="home" asp-action="index">Home</a></li>
                     <li class="dropdown-wrapper">
-                        <a asp-controller="home" asp-action="index" >
+                        <a asp-controller="home" asp-action="index">
                             Pages <i class="fa-solid fa-chevron-down fa-xs"></i>
                         </a>
 
                         <ul class="dropdown">
-                            <li><a asp-controller="book" asp-action="index" >Books</a></li>
+                            <li><a asp-controller="book" asp-action="index">Books</a></li>
 
-                            <li><a asp-controller="blog" asp-action="index" >Blogs</a></li>
+                            <li><a asp-controller="blog" asp-action="index">Blogs</a></li>
                         </ul>
                     </li>
                     <li><a asp-controller="about" asp-action="index">About</a></li>
-                    <li><a asp-controller="blog" asp-action="index" >Services</a></li>
+                    <li><a asp-controller="blog" asp-action="index">Services</a></li>
                     <li><a asp-controller="contact" asp-action="index">Contact</a></li>
                     <div class="header-icons-container d-flex">
                         <a class="icons-border-bg-white"
@@ -244,7 +245,9 @@
         </div>
     </footer>
     <!-- footer end -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="~/lib/swiper/swiper-bundle.min.js"></script>
+    <script src="~/lib/swiper/swiper-bundle.js"></script>
     <script src="~/Js/swiper.js"></script>
     <script src="~/Js/home.js"></script>
 </body>

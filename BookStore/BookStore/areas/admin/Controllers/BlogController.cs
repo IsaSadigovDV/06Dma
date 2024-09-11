@@ -56,6 +56,7 @@ namespace BookStore.Areas.admin.Controllers
 
 
             blog.Image = await blog.File.SaveFileAsync(_env.WebRootPath, "assets/img/blog");
+            blog.CreatedAt = DateTime.UtcNow.AddHours(4);
             await _context.Blogs.AddAsync(blog);
             await _context.SaveChangesAsync();
 
@@ -102,6 +103,8 @@ namespace BookStore.Areas.admin.Controllers
                     ModelState.AddModelError(nameof(File), "File must be an image ");
                     return View();
                 };
+
+                FileHelper.DeleteFile(_env.WebRootPath, "assets/img/blog",updatedblog.Image);
 
                 updatedblog.Image = await blog.File.SaveFileAsync(_env.WebRootPath, "assets/img/blog");
             }

@@ -251,3 +251,4 @@ C:\Users\ASUS\Desktop\CSharp\06dma\BookStore\BookStore\obj\Debug\net8.0\refint\B
 C:\Users\ASUS\Desktop\CSharp\06dma\BookStore\BookStore\obj\Debug\net8.0\BookStore.pdb
 C:\Users\ASUS\Desktop\CSharp\06dma\BookStore\BookStore\obj\Debug\net8.0\BookStore.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\CSharp\06dma\BookStore\BookStore\obj\Debug\net8.0\ref\BookStore.dll
+C:\Users\ASUS\Desktop\CSharp\06dma\BookStore\BookStore\bin\Debug\net8.0\libman.json

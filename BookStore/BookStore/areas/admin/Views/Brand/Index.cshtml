@@ -1,0 +1,44 @@
+﻿@model List<Brand>
+
+<div style="visibility:hidden">@ViewBag.DeleteBrand</div>
+<table class="table">
+    <thead style="text-align:center">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody style="text-align:center">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td style="width:50px; height:50px">
+                    <img style="object-fit:cover" src="~/assets/img/brand/@item.Image" alt="Alternate Text" />
+                </td>
+                
+                <td>
+
+                    <a asp-controller="brand" asp-action="update" asp-route-id="@item.Id">
+                        <i style="color:#199" class="fa-solid fa-wrench"></i>
+                    </a>
+                </td>
+                <td>
+                    <a onclick="return confirm('are you sure')" asp-controller="brand" asp-action="delete"
+                       asp-route-id="@item.Id">
+                        <i style="color:red" class="fa-solid fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+<div>
+    <a class="btn btn-success" asp-controller="brand" asp-action="create">Create brand</a>
+</div>

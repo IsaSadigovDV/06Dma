@@ -1,4 +1,5 @@
-﻿<!-- welcome to pages start -->
+﻿@model HomeVM
+<!-- welcome to pages start -->
 <div class="bg-blue">
     <div class="nav container d-flex space-between">
         <div>
@@ -211,104 +212,24 @@
         <h2 class="trusted-text blue">Trusted By The Best</h2>
 
         <div class="trusted-brands blue d-flex space-around align-center">
-            <div class="swiper brand-swiper">
+            <div style="100%" class="swiper brand-swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <a href="#"></a>
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-amazen.png"
-                                 alt="Amazen logo" />
-                            <h3>Amazen Corp</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
+                    @foreach (var item in Model.Brands)
+                    {
+                        <div  class="swiper-slide">
+                            <div class="d-flex trusted-card">
+                                <a href="#"></a>
+                                <img style="object-fit:cover" class="trusted-brands-small"
+                                     src="~/assets/img/brand/@item.Image"
+                                     alt="@item.Image" />
+                                <h3>@item.Name</h3>
+                                <p>
+                                    @item.Description
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    }
 
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-megan.png"
-                                 alt="Megan books logo" />
-                            <h3>Megan Books</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-megan2.png"
-                                 alt="Los books logo" />
-                            <h3>Los Books</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-urban.png"
-                                 alt="Urban lib logo" />
-                            <h3>Urban Lib</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-amazen.png"
-                                 alt="Amazen logo" />
-                            <h3>Amazen Corp</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-megan.png"
-                                 alt="Megan books logo" />
-                            <h3>Megan Books</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-megan2.png"
-                                 alt="Los books logo" />
-                            <h3>Los Books</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex trusted-card">
-                            <img class="trusted-brands-small"
-                                 src="../assets/img/Logo-urban.png"
-                                 alt="Urban lib logo" />
-                            <h3>Urban Lib</h3>
-                            <p>
-                                A long established fact that a who looking at its layout.
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -534,54 +455,25 @@
     <div class="container d-flex align-center articles-container">
         <h3 class="article-text">Articles & Resources</h3>
         <div class="article-img-container d-flex">
-            <div class="article-card d-flex">
-                <img src="../assets/img/article1.png" alt="girl reading book" />
-                <div class="article-text-container">
-                    <h4>
-                        The energy efficiency offers hydrotherapy or swim
-                    </h4>
-                    <h5 class="gray">
-                        The point of using Lorem Ipsum hiter of that using making it
-                        look like others readable will get end.
-                    </h5>
-                    <div class="d-flex space-between align-center article-card-details">
-                        <h6><a class="blue" href="#">Read More</a></h6>
-                        <h6>Author - 07.07.2023</h6>
+           @foreach (var item in Model.Blogs)
+            {
+                <div class="article-card d-flex">
+                    <img src="~/assets/img/blog/@item.Image" style="width:280px;height:170px" alt="@item.Image" />
+                    <div class="article-text-container">
+                        <h4>
+                            @item.Title
+                        </h4>
+                        <h5 class="gray">
+                           @item.Description
+                        </h5>
+                        <div class="d-flex space-between align-center article-card-details">
+                            <h6><a class="blue" asp-controller="blog" asp-action="detail" asp-route-id="@item.Id">Read More</a></h6>
+                            <h6>Author - @item.CreatedAt.ToString("dd.mm.yyyy")</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="article-card d-flex">
-                <img src="../assets/img/article2.png" alt="girl reading book" />
-                <div class="article-text-container">
-                    <h4>
-                        The energy efficiency offers hydrotherapy or swim
-                    </h4>
-                    <h5 class="gray">
-                        The point of using Lorem Ipsum hiter of that using making it
-                        look like others readable will get end.
-                    </h5>
-                    <div class="d-flex space-between align-center article-card-details">
-                        <h6><a class="blue" href="#">Read More</a></h6>
-                        <h6>Author - 07.07.2023</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="article-card d-flex">
-                <img src="../assets/img/article3.png" alt="girl reading book" />
-                <div class="article-text-container">
-                    <h4>
-                        The energy efficiency offers hydrotherapy or swim
-                    </h4>
-                    <h5 class="gray">
-                        The point of using Lorem Ipsum hiter of that using making it
-                        look like others readable will get end.
-                    </h5>
-                    <div class="d-flex space-between align-center article-card-details">
-                        <h6><a class="blue" href="#">Read More</a></h6>
-                        <h6>Author - 07.07.2023</h6>
-                    </div>
-                </div>
-            </div>
+            }
+           
         </div>
     </div>
 </div>

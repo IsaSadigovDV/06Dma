@@ -3613,6 +3613,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\blog\\07677c5e-61fe-4f4b-ac73-0af587af9908vue-color-avatar.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog\\53b1fc91-adcf-4106-8e36-d29c9496dfd8messi.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\53b1fc91-adcf-4106-8e36-d29c9496dfd8messi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog\\73deffac-e854-4dfa-a3ed-46cb48fd4951Maga.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\73deffac-e854-4dfa-a3ed-46cb48fd4951Maga.jpeg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog\\9d47e122-97e9-4bff-b986-8a0bbd53d655cicek.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\9d47e122-97e9-4bff-b986-8a0bbd53d655cicek.jpg"
     },
@@ -3621,8 +3629,16 @@
       "PackagePath": "staticwebassets\\assets\\img\\blog\\9d9b675b-0a45-4756-92c4-6925259100a5vue-color-avatar (1).png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog\\bc196b7e-0886-4d80-b82e-c47b4c4f8925elman.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\bc196b7e-0886-4d80-b82e-c47b4c4f8925elman.jpeg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog\\d91a8b6c-067b-4b25-b155-803e31fe6b52vue-color-avatar.png",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\d91a8b6c-067b-4b25-b155-803e31fe6b52vue-color-avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog\\ef6b5b57-70b9-459d-a51a-a25c1b0f9662elman.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\ef6b5b57-70b9-459d-a51a-a25c1b0f9662elman.jpeg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book-reader.jpg",
@@ -3647,6 +3663,38 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book7.webp",
       "PackagePath": "staticwebassets\\assets\\img\\book7.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\237f74a2-2111-4391-b2b1-88bb65932f04cicek.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\237f74a2-2111-4391-b2b1-88bb65932f04cicek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\35612349-dc17-4bbb-8a63-913dd991cad4Maga.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\35612349-dc17-4bbb-8a63-913dd991cad4Maga.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\3cb4d5f9-07d3-4919-a18f-9320f4efd0a4dayiImage.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\3cb4d5f9-07d3-4919-a18f-9320f4efd0a4dayiImage.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\3db37431-86ce-46d6-ada5-0054493b5284Elgun.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\3db37431-86ce-46d6-ada5-0054493b5284Elgun.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\759cae42-2f9d-4811-942d-fff5cf216c4amessi.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\759cae42-2f9d-4811-942d-fff5cf216c4amessi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\fcc100be-a038-429c-931b-5fd1d11d6bfcelman.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\fcc100be-a038-429c-931b-5fd1d11d6bfcelman.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\fd285302-c47f-47dd-a7de-0159ca4000c4gul.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\fd285302-c47f-47dd-a7de-0159ca4000c4gul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\fe8990cf-eaaa-454f-8808-2e6ddb15a8c2elman.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\fe8990cf-eaaa-454f-8808-2e6ddb15a8c2elman.jpeg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\dashed-line.png",
@@ -3739,6 +3787,38 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\fonts\\Cardo-Regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\Cardo-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.css",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.js",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.min.mjs",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.mjs"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.min.mjs.map",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.mjs.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\Swiper\\swiper-bundle.mjs",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.mjs"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\lib\\bootstrap\\LICENSE",

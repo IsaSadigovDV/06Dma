@@ -11,5 +11,15 @@
         {
             return file.ContentType.Contains("image");
         }
+
+        public static void DeleteFile(string root, string path, string filname)
+        {
+            string fullpath = Path.Combine(root, path,filname);
+
+            if (File.Exists(fullpath)) 
+            {
+                File.Delete(fullpath);
+            }
+        } 
     }
 }

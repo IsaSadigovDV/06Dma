@@ -1,0 +1,24 @@
+﻿@model Brand
+
+
+<div class="container">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Name"></label>
+            <input type="text" class="form-control" asp-for="Name">
+            <span class="text text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Description"></label>
+            <input type="text" class="form-control" asp-for="Description">
+            <span class="text text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="file"></label>
+            <input type="file" accept="image/*" class="form-control" asp-for="file">
+            <span class="text text-danger" asp-validation-for="file"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
