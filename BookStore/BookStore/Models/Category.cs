@@ -9,5 +9,6 @@ namespace BookStore.Models
         [StringLength(30,ErrorMessage ="Name max length should be 30 characters")]
          public string Name { get; set; }
         public List<Blog>? Blogs { get; set; }
+        public List<BookCategories>? BookCategories { get; set; }
     }
 }

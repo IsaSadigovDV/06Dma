@@ -11,6 +11,9 @@
     <Folder Include="wwwroot\admin\" />
     <Folder Include="wwwroot\assets\img\blog\" />
     <Folder Include="wwwroot\assets\img\brand\" />
+    <Folder Include="wwwroot\assets\img\book\" />
+    <Folder Include="wwwroot\assets\img\author\" />
+    <Folder Include="wwwroot\assets\img\social\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,7 +27,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
   </ItemGroup>
 
 </Project>

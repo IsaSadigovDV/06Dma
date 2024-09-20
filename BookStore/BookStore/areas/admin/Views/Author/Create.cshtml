@@ -1,0 +1,60 @@
+﻿@model Author
+
+
+@*  public string FirstName {  get; set; }
+        public string LastName { get; set; }
+        public string About {  get; set; }
+        public string Country {  get; set; }
+        public string Genre {  get; set; }
+        public DateTime BirtDate { get; set; }
+        public string? Image {  get; set; } *@
+<div class="container">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="FirstName"></label>
+            <input type="text" class="form-control" asp-for="FirstName">
+            <span class="text text-danger" asp-validation-for="FirstName"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="LastName"></label>
+            <input type="text" class="form-control" asp-for="LastName">
+            <span class="text text-danger" asp-validation-for="LastName"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="About"></label>
+            <input type="text" class="form-control" asp-for="About">
+            <span class="text text-danger" asp-validation-for="About"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Country"></label>
+            <input type="text" class="form-control" asp-for="Country">
+            <span class="text text-danger" asp-validation-for="Country"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Genre"></label>
+            <input type="text" class="form-control" asp-for="Genre">
+            <span class="text text-danger" asp-validation-for="Genre"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="BirtDate"></label>
+            <input type="text" class="form-control" asp-for="BirtDate">
+            <span class="text text-danger" asp-validation-for="BirtDate"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="File"></label>
+            <input type="file" accept="image/*" class="form-control" asp-for="File">
+            <span class="text text-danger" asp-validation-for="File"></span>
+        </div>
+        <div class="mb-3">
+            <select asp-for="LanguageId" class="form-select" aria-label="Default select example">
+                <option style="color:black!important" selected>Open this select menu</option>
+                @foreach (var item in ViewBag.Languages)
+                {
+                    <option  style="color:black" value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

@@ -27,9 +27,15 @@ namespace BookStore.Controllers
               Brands = await _context.Brands
                 .Where(x => !x.IsDeleted)
                 .OrderByDescending(x => x.CreatedAt)
-                .ToListAsync()
+                .ToListAsync(),
+              Books = await _context.Books
+              .Where(b=>!b.IsDeleted)
+              .Include(b=>b.BookCategories)
+              .ThenInclude(b=>b.Category)
+              .OrderByDescending(b=>b.CreatedAt)
+              .ToListAsync(),
+              Author = await _context.Authors.FirstOrDefaultAsync(x=>x.Id ==2)
             };
-
 
             return View(homeVM);
         }

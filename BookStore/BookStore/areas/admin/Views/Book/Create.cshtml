@@ -1,0 +1,84 @@
+﻿@model Book
+
+
+<div class="container">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Name"></label>
+            <input type="text" class="form-control" asp-for="Name">
+            <span class="text text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Description"></label>
+            <input type="text" class="form-control" asp-for="Description">
+            <span class="text text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="File"></label>
+            <input type="file" accept="image/*" class="form-control" asp-for="File">
+            <span class="text text-danger" asp-validation-for="File"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Price"></label>
+            <input type="text" class="form-control" asp-for="Price">
+            <span class="text text-danger" asp-validation-for="Price"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Quantity"></label>
+            <input type="text" class="form-control" asp-for="Quantity">
+            <span class="text text-danger" asp-validation-for="Quantity"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Publisher"></label>
+            <input type="text" class="form-control" asp-for="Publisher">
+            <span class="text text-danger" asp-validation-for="Publisher"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="PaperCount"></label>
+            <input type="text" class="form-control" asp-for="PaperCount">
+            <span class="text text-danger" asp-validation-for="PaperCount"></span>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Dimensions"></label>
+            <input type="text" class="form-control" asp-for="Dimensions">
+            <span class="text text-danger" asp-validation-for="Dimensions"></span>
+        </div>
+
+
+       @*  one to many *@
+        <div class="mb-3">
+            <select asp-for="AuthorId" class="form-select" aria-label="Default select example">
+                <option style="color:black!important" selected>Open this select menu</option>
+                @foreach (var item in ViewBag.Authors)
+                {
+                    <option style="color:black" value="@item.Id">@item.FirstName</option>
+                }
+            </select>
+        </div>
+
+        @*Many to many*@
+        <div class="mb-3">
+            <select asp-for="CategoryIds" class="form-select" aria-label="Default select example">
+                <option style="color:black!important" selected>Open this select menu</option>
+                @foreach (var item in ViewBag.Categories)
+                {
+                    <option style="color:black" value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+        @*Many to many*@
+        <div class="mb-3">
+            <select asp-for="LanguageIds" class="form-select" aria-label="Default select example">
+                <option style="color:black!important" selected>Open this select menu</option>
+                @foreach (var item in ViewBag.Languages)
+                {
+                    <option style="color:black" value="@item.Id">@item.Name</option>
+                }
+            </select>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

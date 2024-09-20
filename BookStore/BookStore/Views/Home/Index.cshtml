@@ -49,117 +49,44 @@
         <div class="d-flex space-between books-section">
             <div class="swiper book-swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="d-flex blue books-sec-cont">
-                            <img class="books-small"
-                                 src="../assets/img/book5.webp"
-                                 alt="Atomic one`s book cover" />
-                            <div class="books-small-text">
-                                <h3>Atomic One`s</h3>
-                                <p>
-                                    Many variations of passages of Lorem Ipsum willing araise
-                                    alteration in some form.
-                                </p>
-                                <div class="d-flex blue books-pages-cont">
-                                    <div class="bulleted">
-                                        <h4>Pages:</h4>
-                                        <p class="gray">586 pages</p>
+                    @foreach(var book in Model.Books)
+                    {
+                        <div class="swiper-slide">
+                            <div class="d-flex blue books-sec-cont">
+                                <img class="books-small"
+                                     src="~/assets/img/book/@book.Image"
+                                     alt="Atomic one`s book cover" />
+                                <div class="books-small-text">
+                                    <h3>@book.Name</h3>
+                                    <p>
+                                        @book.Description
+                                    </p>
+                                    <div class="d-flex blue books-pages-cont">
+                                        <div class="bulleted">
+                                            <h4>Pages:</h4>
+                                            <p class="gray">@book.PaperCount pages</p>
+                                        </div>
+                                        <div class="bulleted">
+                                            <h4>Category:</h4>
+                                            <p class="gray">
+                                                @foreach(var category in book.BookCategories.Take(1))
+                                                {
+                                                <p class="gray">@category.Category.Name</p>
+                                                }
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="bulleted">
-                                        <h4>Length:</h4>
-                                        <p class="gray">10 hours</p>
-                                    </div>
+                                    <button class="btn-no-bg">
+                                        <a class="blue" asp-controller="book"
+                                        asp-action="detail" asp-route-id="@book.Id"
+                                        >Order Today</a>
+                                    </button>
                                 </div>
-                                <button class="btn-no-bg">
-                                    <a class="blue" href="#">Order Today</a>
-                                </button>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="d-flex blue books-sec-cont">
-                            <img class="books-small"
-                                 src="../assets/img/book6.webp"
-                                 alt="The dark light book cover" />
-                            <div class="books-small-text">
-                                <h3>The Dark Light</h3>
-                                <p>
-                                    Many variations of passages of Lorem Ipsum willing araise
-                                    alteration in some form.
-                                </p>
-                                <div class="d-flex blue books-pages-cont">
-                                    <div class="bulleted">
-                                        <h4>Pages:</h4>
-                                        <p class="gray">586 pages</p>
-                                    </div>
-                                    <div class="bulleted">
-                                        <h4>Length:</h4>
-                                        <p class="gray">10 hours</p>
-                                    </div>
-                                </div>
-                                <button class="btn-no-bg">
-                                    <a class="blue" href="#">Order Today</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    }
 
-                    <div class="swiper-slide">
-                        <div class="d-flex blue books-sec-cont">
-                            <img class="books-small"
-                                 src="../assets/img/book7.webp"
-                                 alt="The dark light book cover" />
-                            <div class="books-small-text">
-                                <h3>The Dark Light</h3>
-                                <p>
-                                    Many variations of passages of Lorem Ipsum willing araise
-                                    alteration in some form.
-                                </p>
-                                <div class="d-flex blue books-pages-cont">
-                                    <div class="bulleted">
-                                        <h4>Pages:</h4>
-                                        <p class="gray">586 pages</p>
-                                    </div>
-                                    <div class="bulleted">
-                                        <h4>Length:</h4>
-                                        <p class="gray">10 hours</p>
-                                    </div>
-                                </div>
-                                <button class="btn-no-bg">
-                                    <a class="blue" href="#">Order Today</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="d-flex blue books-sec-cont">
-                            <img class="books-small"
-                                 src="../assets/img/book2.jpg"
-                                 alt="The dark light book cover" />
-                            <div class="books-small-text">
-                                <h3>The Dark Light</h3>
-                                <p>
-                                    Many variations of passages of Lorem Ipsum willing araise
-                                    alteration in some form.
-                                </p>
-                                <div class="d-flex blue books-pages-cont">
-                                    <div class="bulleted">
-                                        <h4>Pages:</h4>
-                                        <p class="gray">586 pages</p>
-                                    </div>
-                                    <div class="bulleted">
-                                        <h4>Length:</h4>
-                                        <p class="gray">10 hours</p>
-                                    </div>
-                                </div>
-                                <button class="btn-no-bg">
-                                    <a class="blue" href="#">Order Today</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -170,22 +97,20 @@
 <div class="bg-light-blue">
     <div class="container blue d-flex space-between author-section">
         <div>
-            <img class="author-image"
-                 src="../assets/img/Author.jpg"
+            <img  class="author-image"
+                 src="~/assets/img/author/@Model.Author.Image"
                  alt="Author John Abraham" />
+
         </div>
 
         <div class="about-author-section">
-            <h2 class="about-author-underline blue">About Author</h2>
+            <a asp-controller="author" asp-action="detail" asp-route-id="@Model.Author.Id" class="about-author-underline blue" style="font-size:2rem"> About Author</a>
             <p class="gray">
-                All the Lorem Ipsum generators on the Internet tend to repeated
-                predefined chunks as necessary, making this the first true value
-                generator on the Internet. It uses a dictionary of over 200 Latin
-                words, combined with a handful.
+            @Model.Author.About
             </p>
             <div class="yellow-border-section d-flex space-between">
                 <div class="border-right-yellow">
-                    <h2>02</h2>
+                    <h2>@Model.Author.Books.Count</h2>
                     <p class="gray">Books Published</p>
                 </div>
                 <div class="border-right-yellow">
@@ -199,7 +124,7 @@
             </div>
             <div class="visit-card-container">
                 <img class="visit-card"
-                     src="../assets/img/visit-card.png"
+                     src="~/assets/img/visit-card.png"
                      alt="visit card" />
             </div>
         </div>

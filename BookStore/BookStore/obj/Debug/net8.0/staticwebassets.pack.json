@@ -3605,6 +3605,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\article9.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\author\\8ef1d94f-342f-4f85-9eb3-1d1588b7b85dvictor_hugo.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\8ef1d94f-342f-4f85-9eb3-1d1588b7b85dvictor_hugo.jpeg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\blog-img.png",
       "PackagePath": "staticwebassets\\assets\\img\\blog-img.png"
     },
@@ -3663,6 +3667,34 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book7.webp",
       "PackagePath": "staticwebassets\\assets\\img\\book7.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\1d5f1c04-cd30-4370-99d5-20aa5197fc30insta.png",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\1d5f1c04-cd30-4370-99d5-20aa5197fc30insta.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\2fce6ebb-7062-4cfc-8fe5-8df18de56c61sefiller.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\2fce6ebb-7062-4cfc-8fe5-8df18de56c61sefiller.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\4e5a4bb0-5883-437d-b9bb-b5b38930d193vergi_mecelessi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\4e5a4bb0-5883-437d-b9bb-b5b38930d193vergi_mecelessi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\63477caa-8428-4db0-9ac5-b4d1df49ac13facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\63477caa-8428-4db0-9ac5-b4d1df49ac13facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\cb144af4-860c-4ac0-843e-af2c6d063cbclord_of_rings.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\cb144af4-860c-4ac0-843e-af2c6d063cbclord_of_rings.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\e9a9e5c8-87a9-4a2d-8b09-8870d6a0b076vergi_mecelessi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\e9a9e5c8-87a9-4a2d-8b09-8870d6a0b076vergi_mecelessi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\book\\ea4408b5-e920-4070-9aa6-55a92550641charry_potter.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\ea4408b5-e920-4070-9aa6-55a92550641charry_potter.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\brand\\237f74a2-2111-4391-b2b1-88bb65932f04cicek.jpg",
@@ -3767,6 +3799,14 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\shipping.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shipping.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\social\\14aca70f-937e-444a-97ae-f23abd17fc94insta.png",
+      "PackagePath": "staticwebassets\\assets\\img\\social\\14aca70f-937e-444a-97ae-f23abd17fc94insta.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\social\\9018bcc9-b51d-409d-99c5-2e26bcaa2674facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\social\\9018bcc9-b51d-409d-99c5-2e26bcaa2674facebook.png"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\wwwroot\\assets\\img\\user.png",
