@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\views\\auth\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\auth\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\context\\bookdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\context\\bookdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|c:\\users\\asus\\desktop\\csharp\\06dma\\bookstore\\bookstore\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03760AFA-8D7F-406F-8CA5-181611DE7DF6}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +54,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 414,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:02:13.891Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -22,6 +80,130 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Info.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Auth\\Info.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Auth\\Info.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Auth\\Info.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Auth\\Info.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T08:59:36.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T08:44:02.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "BookStore\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "BookStore\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:28:37.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T08:28:13.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "BookStore\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "BookStore\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:39:29.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T07:35:58.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BookStore\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BookStore\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowFoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:27:57.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookDb.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Context\\BookDb.cs",
+              "RelativeDocumentMoniker": "BookStore\\Context\\BookDb.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Context\\BookDb.cs",
+              "RelativeToolTip": "BookStore\\Context\\BookDb.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA5wBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:49:50.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "BookStore\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Models\\AppUser.cs",
+              "RelativeToolTip": "BookStore\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:46:02.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Program.cs",
+              "RelativeDocumentMoniker": "BookStore\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CSharp\\06dma\\BookStore\\BookStore\\Program.cs",
+              "RelativeToolTip": "BookStore\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:31:36.581Z"
             }
           ]
         }

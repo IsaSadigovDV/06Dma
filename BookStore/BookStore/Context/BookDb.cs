@@ -1,15 +1,16 @@
 ﻿using BookStore.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BookStore.Context
 {
-    public class BookDb:DbContext
+    public class BookDb:IdentityDbContext<AppUser>
     {
+        // TODO: useri duzelt
        
         public DbSet<Category> Categories { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Blog> Blogs { get; set; }
-
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Social> Socials { get; set; }
@@ -21,7 +22,6 @@ namespace BookStore.Context
         {
             
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<BookLanguage>()
