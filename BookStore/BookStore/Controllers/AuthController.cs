@@ -70,7 +70,7 @@ namespace BookStore.Controllers
                 return View(model);
             }
 
-           var res =  await _signinmanager.PasswordSignInAsync(user, model.Password, model.RememberMe, true);
+           var res =  await _signinmanager.PasswordSignInAsync(user, model.Password, model.RememberMe,true);
 
             if (!res.Succeeded)
             {
@@ -105,6 +105,67 @@ namespace BookStore.Controllers
                 return NotFound();
             } 
             return View(user);
+        }
+
+        public async Task<IActionResult> Update()
+        {
+            var user = await _usermanager.FindByNameAsync(User.Identity.Name);
+
+            if(user is null)
+                return NotFound();
+
+            UserUpdateVM vm = new()
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                UserName = user.UserName
+            };
+
+            return View(vm);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(UserUpdateVM model)
+        {
+
+            var user = await _usermanager.FindByNameAsync(User.Identity.Name);
+
+            if (user is null)
+                return NotFound();
+
+            user.UserName = model.UserName;
+            user.Email = model.Email;
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+
+            var result =  await _usermanager.UpdateAsync(user);
+
+            if (!result.Succeeded)
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError("", item.Description);
+                }
+                return View(model);
+            }
+
+            if (!string.IsNullOrWhiteSpace(model.NewPassword))
+            {
+             result=  await _usermanager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+
+                if (!result.Succeeded)
+                {
+                    foreach (var item in result.Errors) 
+                    {
+                        ModelState.AddModelError("", item.Description);
+                    }
+                    return View(model);
+                }
+            }
+            await _signinmanager.SignInAsync(user, true);
+            return RedirectToAction(nameof(Info));
+
         }
 
 
