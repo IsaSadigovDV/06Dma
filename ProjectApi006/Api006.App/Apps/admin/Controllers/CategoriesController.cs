@@ -8,7 +8,7 @@ namespace Api006.App.Apps.admin.Controllers
 {
     [Route("api/admin/[controller]")]
     [ApiController]
-    [Authorize(Roles ="Admin, SuperAdmin")]
+    [Authorize(Roles = "Admin, SuperAdmin")]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryService _categoryService;
@@ -17,7 +17,6 @@ namespace Api006.App.Apps.admin.Controllers
         {
             _categoryService = categoryService;
         }
-
         [HttpPost("create")]
         public async Task<IActionResult> Create(CategoryPostDto dto)
         {

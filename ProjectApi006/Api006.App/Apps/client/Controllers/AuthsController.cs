@@ -1,11 +1,8 @@
 ﻿using Api006.Service.Dtos;
 using Api006.Service.Dtos.Auth;
-using Microsoft.AspNetCore.Identity;
+using Api006.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
+
 
 namespace Api006.App.Apps.client.Controllers
 {
@@ -13,74 +10,24 @@ namespace Api006.App.Apps.client.Controllers
     [ApiController]
     public class AuthsController : ControllerBase
     {
-        private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly UserManager<IdentityUser> _userManager;
-
-        public AuthsController(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
+        private readonly IAuthService _authService;
+        public AuthsController(IAuthService authService)
         {
-            _roleManager = roleManager;
-            _userManager = userManager;
+            _authService = authService;
         }
-
 
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDto dto)
         {
-            IdentityUser user = new()
-            {
-                UserName = dto.UserName,
-                Email = dto.Email,
-            };
-            var res = await _userManager.CreateAsync(user, dto.Password);
-
-            if (!res.Succeeded)
-            {
-                return StatusCode(400, new { items = res.Errors });
-            }
-
-            await _userManager.AddToRoleAsync(user, "Admin");
-            return StatusCode(201, new { description = "User created successfully" });
+            var res = await _authService.Register(dto);
+            return StatusCode(res.StatusCode);
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDto dto)
         {
-            var user = await _userManager.FindByNameAsync(dto.UserName);
-            if (user == null)
-                return StatusCode(404, new { desc = "User is not found" });
-
-            if (!await _userManager.CheckPasswordAsync(user, dto.Password))
-                return StatusCode(400, new { desc = "Username or password is not correct" });
-
-            var roles = await _userManager.GetRolesAsync(user);
-
-            var authclaims = new List<Claim>()
-            {
-                new Claim(ClaimTypes.Name, dto.UserName),
-                new Claim(ClaimTypes.NameIdentifier, dto.Password)
-            };
-
-            foreach (var role in roles)
-            {
-                authclaims.Add(new Claim(ClaimTypes.Role, role));
-            }
-
-            var secret_key = "Yalniz ve yalninz Inci dersde idi :)";
-            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret_key));
-
-            var jwtToken = new JwtSecurityToken
-                (
-                    issuer: "https://localhost:7085",
-                    audience: "https://localhost:7085",
-                    claims: authclaims,
-                    expires:DateTime.UtcNow.AddHours(3),
-                    signingCredentials: new SigningCredentials(authSigningKey,SecurityAlgorithms.HmacSha256)
-                );
-
-            var token = new JwtSecurityTokenHandler().WriteToken(jwtToken);
-            return Ok(token);
-
-
+            var res = await _authService.Login(dto);
+            return StatusCode(res.StatusCode, res.Data);
         }
 
         //[HttpPost("createrole")]
