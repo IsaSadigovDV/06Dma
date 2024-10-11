@@ -1,0 +1,30 @@
+﻿@model List<CategoryGetDto>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Id</th>
+                <td>@item.Name</td>
+                <td><a>
+                    <i style="color:blue" class="fa-solid fa-wrench"></i>
+                </a></td>
+                <td><a>
+                        <i style="color:red" class="fa-solid fa-explosion"></i>
+                </a></td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>

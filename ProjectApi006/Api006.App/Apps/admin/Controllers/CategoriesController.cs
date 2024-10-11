@@ -3,9 +3,13 @@ using Api006.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace Api006.App.Apps.admin.Controllers
 {
+    // TODO : Global exception handler
+    // TODO : Multiple version control system
+    // TODO : Testing
+    // TODO : Deployment
+
     [Route("api/admin/[controller]")]
     [ApiController]
     [Authorize(Roles = "Admin, SuperAdmin")]
