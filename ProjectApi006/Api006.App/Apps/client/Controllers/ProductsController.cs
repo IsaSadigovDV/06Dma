@@ -9,6 +9,7 @@ namespace Api006.App.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "client_v1")]
     public class ProductsController : ControllerBase
     {
         // todo: fronta biz imageUrl vermeliyik ki o shekilden bir basa istifade ede bilsin

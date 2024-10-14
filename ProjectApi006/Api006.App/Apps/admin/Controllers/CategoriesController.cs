@@ -5,13 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api006.App.Apps.admin.Controllers
 {
-    // TODO : Global exception handler
-    // TODO : Multiple version control system
-    // TODO : Testing
     // TODO : Deployment
+    // TODO : Service Registrations
 
     [Route("api/admin/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "admin_v1")]
     [Authorize(Roles = "Admin, SuperAdmin")]
     public class CategoriesController : ControllerBase
     {
