@@ -1,5 +1,6 @@
 ﻿using Api006.Service.Dtos;
 using Api006.Service.Dtos.Auth;
+using Api006.Service.Exceptions;
 using Api006.Service.Responses;
 using Api006.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Identity;
@@ -28,7 +29,8 @@ namespace Api006.Service.Services.Concrets
         {
             var user = await _userManager.FindByNameAsync(dto.UserName);
             if (user == null)
-                return new ApiResponse { StatusCode =404, Message = "User does not exist" };
+                throw new UserNotFoundException("User not found");
+                //return new ApiResponse { StatusCode =404, Message = "User does not exist" };
 
             if (!await _userManager.CheckPasswordAsync(user, dto.Password))
                 return new ApiResponse { StatusCode = 400, Message = "Username or password is not correct" };

@@ -6,7 +6,7 @@ namespace Api006.Service.Extensions
     public static class FileUploadExtensions
     {
 
-        // todo: task 1 (Rustem, Inci) gorduyunuz bu IsImage() ve IsSizeOk() methodlari ucun test yazmaq lazimdir. Test xUnitle yazilmalidir. Testi yazarken size lazim olacaq "Mock" data (search). Test adi ile en son neticesi ferqli ola bilmez
+        // todo: task 1 (Rustem, Inci) gorduyunuz bu IsImage() ve IsSizeOk() methodlari ucun test yazmaq lazimdir. Test xUnitle yazilmalidir. Testi yazarken size lazim olacaq "Mock" data (search). Test adi ile en son neticesi ferqli ola bilmez. Note kod "dev" branchina push olunmadir. Elave sual olsa bildire bilersiniz.Ugurlar
         public static bool IsImage(this IFormFile file)
         {
             if(file == null)

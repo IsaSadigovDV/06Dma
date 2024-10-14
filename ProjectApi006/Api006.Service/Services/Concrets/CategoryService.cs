@@ -2,11 +2,13 @@
 using Api006.Core.Repositories.Abstractions;
 using Api006.Service.Dtos;
 using Api006.Service.Dtos;
+using Api006.Service.Exceptions;
 using Api006.Service.Responses;
 using Api006.Service.Services.Abstractions;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace Api006.Service.Services.Concrets
 {
@@ -24,8 +26,16 @@ namespace Api006.Service.Services.Concrets
         public async Task<ApiResponse> Create(CategoryPostDto dto)
         {
             Category category = _mapper.Map<Category>(dto);
-            await _categoryRepo.AddAsync(category);
-            await _categoryRepo.SaveAsync();
+            try
+            {
+                await _categoryRepo.AddAsync(category);
+                await _categoryRepo.SaveAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw;
+            }
             return new ApiResponse { StatusCode=201};
         }
 
@@ -39,8 +49,11 @@ namespace Api006.Service.Services.Concrets
         public async Task<ApiResponse> GetById(Guid id)
         {
             var category = await _categoryRepo.GetByIdAsync(x => x.Id == id && !x.IsDeleted);
+
             if (category == null)
-                return new ApiResponse { StatusCode=404,Data="" ,Message="Item is not found" };
+                //return new ApiResponse { StatusCode=404,Data="" ,Message="Item is not found" };
+                throw new ItemNotFoundException("Item is not found");
+
             CategoryGetDto dto = _mapper.Map<CategoryGetDto>(category);
             return new ApiResponse { StatusCode=200,Data=dto};
         }

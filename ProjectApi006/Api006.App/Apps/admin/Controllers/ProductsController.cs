@@ -1,11 +1,14 @@
 ﻿using Api006.Service.Dtos.Product;
 using Api006.Service.Services.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api006.App.Apps.admin.Controllers
 {
     [Route("api/admin/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "admin_v1")]
+    [Authorize(Roles = "Admin, SuperAdmin")]
     public class ProductsController : ControllerBase
     {
         // todo: fronta biz imageUrl vermeliyik ki o shekilden bir basa istifade ede bilsin
